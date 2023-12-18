@@ -6,12 +6,11 @@ Melalui implementasi ini, diharapkan tercipta panduan praktis bagi pengguna Kali
 1. Mengimplementasikan konfigurasi firewall pada Kali Linux di VirtualBox.
 2. Mengidentifikasi langkah-langkah konfigurasi firewall pada Kali Linux di VirtualBox.
 3. Mengetahui dampak penggunaan firewall pada Kali Linux di VirtualBox.
-# Pembahasan Implementasi
+# Pembahasan dan Langkah-Langkah Implementasi
 Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk melindungi terhadap serangan seperti pemindaian port, malware, dan virus, tetapi juga untuk menguji dan memastikan efektivitas kebijakan keamanan secara menyeluruh. 
-
-Setelah berhasil menginstal Kali Linux di VirtualBox, langkah-langkah implementasi firewall menggunakan iptables dilakukan untuk meningkatkan keamanan sistem. Langkah-langkahnya melibatkan login ke Kali Linux, masuk ke terminal, melakukan root dengan perintah "sudo su", menginstal iptables dengan "sudo apt-get install iptables", dan melakukan pengecekan blokir dengan "iptables -L".
-
-Selanjutnya, dilakukan implementasi firewall dengan memblokir situs detik.com menggunakan perintah "iptables -A INPUT -s 203.190.242.211 -j DROP". Setelah implementasi, dilakukan pengecekan dengan "iptables -L" yang menunjukkan IP detik.com telah terblokir. Uji coba dengan ping menghasilkan tidak ada reply, dan mencoba membuka detik.com di Firefox menghasilkan time out, menandakan bahwa implementasi firewall berhasil memblokir IP detik.com.
+1. Membuat Virtual Mesin Kali Linux di VirtualBox
+   - Klik “Baru” untuk membuat mesin virtual baru
+     
 # Dampak Implementasi
 Penggunaan firewall pada Kali Linux di VirtualBox memberikan dampak signifikan terhadap keamanan dan kinerja sistem. Dampak positif termasuk peningkatan keamanan jaringan dengan memblokir penyusupan, malware, dan akses tidak sah, serta mengurangi ketergantungan pada konfigurasi spesifik. Firewall juga memungkinkan pengaturan akses konten yang lebih baik.
 
