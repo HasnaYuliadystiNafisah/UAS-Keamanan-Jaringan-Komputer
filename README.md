@@ -24,133 +24,133 @@ Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk mel
      ![Picture4](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/d39669cd-f7c4-4ba6-b586-e748a9719fb2)
    - Selanjutnya untuk tipe hard disk pilih “VDI (Virtual Disk Image)” dan klik “Lanjut”
      
-     ![Picture5](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/a4ee5647-e664-4e71-833b-fcdb005e8f47)
+     ![Picture5](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/32f649c3-553e-401c-b98b-5b2a3fe6a620)
    - Penyimpanan pada hard disk fisik gunakan yang “Dialokasikan secara dinamik”. Lalu klik “Lanjut”
-     ![Picture6](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3ab64eb9-3a55-4146-92e0-08ecb56ad236)
+     ![Picture6](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/f376747b-a2a9-4410-a793-4993559873aa)
 
    - Lokasi dan ukuran berkas juga disesuaikan dengan keinginan, di sini penulis menggunakan 32GB. Selanjutnya klik “Buat”
-     ![Picture7](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/36676d0d-1349-47d8-856a-9bd066aa3cb5)
+     ![Picture7](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/4ae34cd4-4c5c-4c5b-8484-74d3a699c31b)
 
    - Virtual mesin kali linux berhasil dibuat
      
-     ![Picture8](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/e55e906a-add0-449a-983b-73bfd04dade9)
+     ![Picture8](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/420826e3-ab84-43c5-bcc6-06229731f750)
 
    - Sebelum lanjut mengkonfigurasi kali linux, setting bagian penyimpanan dan jaringan terlebih dahulu. Untuk di bagian penyimpanan, tambahkan disk optik kali linux yang telah di unduh dari https://www.kali.org/get-kali/#kali-platforms.
-     ![Picture9](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/9db8979f-e72e-44dd-a2cf-9561186d4e7b)
+     ![Picture9](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/7ff8b561-cea1-4102-a988-5f690c97da96)
 
      Sedangkan di bagian jaringan, ganti jaringan yang secara default “NAT” menjadi “Adaptor Ter-bridge”. Lalu klik “Ok” untuk menyimpan perubahan.
      
-     ![Picture10](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1c648c2d-1eb1-48f0-9967-4a411d2748ec)
+     ![Picture10](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/75dac6f1-3ae8-4d3d-ae8a-d445de9b0234)
 
    - `Pembuatan virtual mesin di virtual box berhasil dibuat
 2. Installasi dan Konfigurasi Kali Linux 
    - Klik “Mulai” untuk mulai menjalankan kali linux
      
-     ![Picture11](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/97bad2a9-b5a1-4808-9b87-30103f796555)
+     ![Picture11](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/014f400e-766a-4ad7-b88a-c1a74817f65e)
 
    - Halaman pertama, akan menampilkan beberapa pilihan yang akan di install dan konfigurasi. Di sini penulis memilih “Graphical Install”
-     ![Picture12](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3de389d7-02e7-4b48-841f-dd54e8e3a502)
+     ![Picture12](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/9b6b9117-abac-4c1e-bb54-41a4f5ceb188)
 
    - Selanjutnya, pengguna akan disuruh memilih bahasa, lokasi, dan jenis keyboard yang digunakan. Di sini penulis menggunakan Bahasa Indonesia, lokasi Indonesia, dan jenis keyboard Inggris Amerika
      
-     ![Picture13](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/b5cefe94-2f7a-41e6-861a-96433377e85b)
-     
-     ![Picture14](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1186e4db-767c-43f7-848f-6dfa1225e83f)
-     
-     ![Picture15](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/5c78c919-9f4c-49bc-9168-5a0bd203094b)
+     ![Picture13](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/0da5daaf-4ac6-4b70-a5ee-3d7d47695c93)
+
+     ![Picture14](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/58b145e7-d1a0-4c0c-9c16-76d841d5a8ce)
+
+     ![Picture15](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/11cfa927-0e3e-482f-a9e6-77a961dfa321)
 
    - Selanjutnya, tunggu pemrosesan yang dilakukan oleh kali linux hingga selesai
 
-     ![Picture16](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/e0cad7e9-27fa-4912-8adf-ea374e546680)
+     ![Picture16](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/e55828ef-795a-4fd3-8cc3-22a995190c55)
 
    - Pengguna akan dimintai untuk menuliskan nama host, nama domain, nama lengkap dari pengguna baru, dan juga nama untuk akun. Di sini penulis menyamakan semua nama dengan nama “laili”
      
-     ![Picture17](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/2ae414df-d7aa-4e5c-be11-7368600aaf9e)
+     ![Picture17](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/cad40a93-575b-498a-b584-3de6de64ec57)
 
-     ![Picture18](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/0fdf1b84-98cd-4be0-9b67-93daefdad10e)
+     ![Picture18](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/bd2b7731-9bee-403f-a392-185f69036110)
 
-     ![Picture19](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/4a29a5e3-0171-41c3-afac-4f5051168f23)
+     ![Picture19](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/b3d0fa8f-7df5-4006-bd98-4bc3c87c2cd2)
 
-     ![Picture20](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/bdfa8d7b-5aad-4c39-b917-71fad62095e1)
+     ![Picture20](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/ae1a683d-cfb0-459b-923b-e64328c0d4d2)
 
    - Setelah menuliskan semua nama yang diminta, selanjutnya pengguna juga dimintai untuk membuat kata sandi untuk akun kali linux nya.
      
-     ![Picture21](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/e9cea63b-4c11-48a7-8dd4-18f500763dea)
+     ![Picture21](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/9a827e4a-1bdf-43db-b10d-d7e5e7dac189)
      
    - Di pengaturan waktu, pengguna harus memilih pengaturan waktu yang sesuai dengan tempat tinggal pengguna. Di sini penulis memilih pengaturan waktu “WIB”
      
-     ![Picture22](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/16aae342-f838-4503-82c8-e0d59b1ec283)
+     ![Picture22](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/9a61eb48-35ed-4fce-826c-ac1732ec8277)
 
    - Untuk partisi hard disk, pilih “Terpadu – gunakan seluruh harddisk”
      
-     ![Picture23](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3a63c7f6-4bad-4178-bf3c-4b9dc566b12d)
+     ![Picture23](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/baa88417-cc92-4caa-afab-46651ec3d767)
 
    - Pilih harddisk yang akan di partisi dan lanjut pilih pola partisi, di sini penulis memilih “Semua berkas di satu partisi (disarankan untuk pemula)
      
-     ![Picture24](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/85720fc0-9fca-40e9-b461-e22e0adfb62c)
+     ![Picture24](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/a728cf3f-118b-472c-9e05-6c054bb4cc57)
 
-     ![Picture25](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/b7af7cb8-167a-4c3a-8508-d1095a49809f)
+     ![Picture25](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/52e12d64-b9c1-495f-9146-c8c35f7fd2af)
 
    - Setelah selesai partisi hard disk, selanjutnya pilih “Selesai mepartisi dan tulis perubahan-perubahannya ke hard disk” dak klik “Lanjutkan”
      
-     ![Picture26](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1c655509-0f24-4795-b671-a00b9711253b)
+     ![Picture26](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/79af9094-2c18-42a0-8a3c-2031807b386a)
 
    - Pada bagian tulis perubahan yang terjadi pada hard disk, penulis memilih “ya”
      
-     ![Picture27](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/750653d0-26b9-41d3-9373-ef3b55ad1f43)
+     ![Picture27](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/8d00e9b9-465b-4e8c-9282-6bd7784f1936)
 
    - Semua pemrosesan hingga selesai
      
-     ![Picture28](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1f3aaf1f-1c7a-4844-ad2e-700e43f0c5e5)
+     ![Picture28](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/fe60fd4e-5da3-4193-8eec-8a45b63a08fa)
 
    - Pilih perangkat lunak yang ingin di install, ini menyesuaikan kebutuhan pengguna. Penulis memilih 3 perangkat lunak seperti pada gambar
      
-     ![Picture29](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/30d3208b-c7d2-46ac-98a3-f06ddc7092ed)
+     ![Picture29](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/cc21d6b0-4c22-44f4-8396-938c44ac9eea)
 
    - Tunggu pemrosesan perangkat lunak hingga selesai
      
-     ![Picture30](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/598707de-d260-42c2-9ba6-ebba37c7e337)
+     ![Picture30](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/8a30c687-f6b1-418e-95bb-510f11bb9a21)
 
    - Setelah pemrosesan selesai, pengguna akan diberikan pilihan untuk memasang boot loader GRUB atau tidak. Di sini penulis memilih untuk tidak memasang boot loader GRUB. Lalu klik “Lanjutkan
 
-     ![Picture31](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/ee11e4e8-7b76-4a2f-ac73-402769a025c1)
+     ![Picture31](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/b8a9ed90-821b-4225-b8b2-0efdf5406847)
      
    - Untuk piranti pemasangan boot loader, penulis memilih yang sudah ada, yaitu “/dev/sda/ (ata-VBOX_HARDDISK_VB30cc22c5-bcd2de04)”
      
-     ![Picture32](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/9a998c17-40ec-4f9e-abb7-abc847eda7f6)
+     ![Picture32](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/96c5a39e-d56b-4002-9018-79bfac5b7409)
 
    - Tunggu penyelesaian installasi hingga selesai
      
-     ![Picture33](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3618f680-4518-42d2-b37f-512cf9d3b83f)
+     ![Picture33](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/4fe83607-5f9f-4154-8e77-84548d44ce0b)
 
    - Setelah instalasi selesai, pilih “Lanjutkan” untuk melakukan boot ulang
      
-     ![Picture34](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/4ac9c915-7140-4b46-b4fd-c3b3dd0fcbce)
+     ![Picture34](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/63ddf084-5a73-45da-9dcd-36b7325f7c41)
 
 3. Implementasi Firewall Dengan Kali Linux di VirtualBox
    - Setelah installasi selesai, pengguna akan di arahkan ke menu login dari kali linux. Dimana sebelum masuk, pengguna dimintai untuk memasukkan username dan password yang telah di buat
 
-     ![Picture35](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1420a25c-b319-45b7-a48a-1576b28fe2ee)
+     ![Picture35](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/8f2c6c93-e138-4e0e-a95a-0ae67a3362fe)
 
    - Jika username dan password berhasil maka pengguna akan langsung diarahkan ke menu utama.
      
-     ![Picture36](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/8463e256-5c05-4cdb-9157-1a3312651f20)
+     ![Picture36](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/109a957c-19c7-4647-8a83-a2ae7d067522)
 
    - Setelah dari menu utama, pengguna masuk ke terminal dan melakukan root dengan menuliskan perintah “sudo su”
 
-     ![Picture37](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3e8ae944-fec3-4e00-bed2-26a4756e7e0d)
+     ![Picture37](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/cd8a9f57-8a5b-4457-8f77-e8b7bcd4f77b)
 
    - Setelah berada di dalam root, install iptables dengan mengetikkan “sudo apt-get install iptables”
      
-     ![Picture38](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/6ff74daf-5027-4bdf-9c3f-e9c43afa76f4)
+     ![Picture38](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/654b76b6-8821-4c08-abd6-874ad2b72045)
 
    - Selanjutnya, penulis akan melakukan pengecekan apakah sudah ada yang terblokir atau belum dengan menuliskan perintah “iptables -L”. Di awal belum ada yang terblokir. Untuk melakukan implementasi firewall, di sini penulis ingin mencoba untuk memblokir website dari detik.com. Dimana IP dari detik.com sendiri yaitu 203.190.242.211 maka untuk memblokirnya, dituliskan perintah “iptables -A INPUT -s 203.190.242.211 -j DROP” setelah itu enter. Penulis melakukan pengecekan lagi dengan menuliskan perintah “iptables -L” dan terlihat bahwa IP dari detik.com sudah masuk ke dalam list. Penulis mencoba melakukan ping ke IP detik.com tetapi tidak ada reply yang berarti tidak terhubung
      
-     ![Picture39](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3cbc3a4b-1830-474f-8353-c9d6638c002b)
+     ![Picture39](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/3e55fa07-6058-4d03-8e15-eea27ea85792)
      
    - Penulis mencoba untuk membuka website detik.com di firefox dan menghasilkan time out. Hal ini berarti penulis sudah berhasil memblokir IP detik.com
 
-     ![Picture40](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/d093fea7-6f3b-4fed-90a5-d7ec86650d6c)
+     ![Picture40](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/5d17ac83-6d63-43d4-90c8-acd8b1fc5ff0)
 
 # Dampak Implementasi
 Penggunaan firewall pada Kali Linux di VirtualBox memberikan dampak signifikan terhadap keamanan dan kinerja sistem. Dampak positif termasuk peningkatan keamanan jaringan dengan memblokir penyusupan, malware, dan akses tidak sah, serta mengurangi ketergantungan pada konfigurasi spesifik. Firewall juga memungkinkan pengaturan akses konten yang lebih baik.
