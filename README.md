@@ -15,13 +15,13 @@ Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk mel
      
    - Beri nama virtual mesin sesuai keinginan. Untuk kali linux sendiri menggunakan tipe “Linux” dengan versi “Linux 2.6/3.x/4.x(64-bit). Lalu klik “Lanjut”
 
-     ![Picture1](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/6a03f7e3-5ef7-4fb1-9d0c-d7e81baeeb72)
+     ![Picture1](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/903af5b4-73b0-476f-894a-61ebdd217717)
    - Untuk ukuran memori sesuaikan dengan laptop, di sini penulis menggunakan ukuran memori 4096MB atau setara dengan 4GB. Lalu klik “Lanjut”
 
-     ![Picture2](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/57410bf5-9463-4a2f-9bc2-d8d1b8aaed2e)
+     ![Picture2](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/7ed82dae-deef-4d58-8183-fc226f95d269)
    - Pilih “Buat hard disk virtual sekarang”, lalu klik “Buat”
 
-     ![Picture4](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/990b2bc6-72d3-47dd-b602-d9689c2b1291)
+     ![Picture4](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/d39669cd-f7c4-4ba6-b586-e748a9719fb2)
    - Selanjutnya untuk tipe hard disk pilih “VDI (Virtual Disk Image)” dan klik “Lanjut”
      
      ![Picture5](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/a4ee5647-e664-4e71-833b-fcdb005e8f47)
