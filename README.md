@@ -29,6 +29,7 @@ Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk mel
      ![Picture6](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/f376747b-a2a9-4410-a793-4993559873aa)
 
    - Lokasi dan ukuran berkas juga disesuaikan dengan keinginan, di sini penulis menggunakan 32GB. Selanjutnya klik “Buat”
+
      ![Picture7](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/4ae34cd4-4c5c-4c5b-8484-74d3a699c31b)
 
    - Virtual mesin kali linux berhasil dibuat
@@ -36,6 +37,7 @@ Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk mel
      ![Picture8](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/420826e3-ab84-43c5-bcc6-06229731f750)
 
    - Sebelum lanjut mengkonfigurasi kali linux, setting bagian penyimpanan dan jaringan terlebih dahulu. Untuk di bagian penyimpanan, tambahkan disk optik kali linux yang telah di unduh dari https://www.kali.org/get-kali/#kali-platforms.
+
      ![Picture9](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/7ff8b561-cea1-4102-a988-5f690c97da96)
 
      Sedangkan di bagian jaringan, ganti jaringan yang secara default “NAT” menjadi “Adaptor Ter-bridge”. Lalu klik “Ok” untuk menyimpan perubahan.
@@ -49,7 +51,8 @@ Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk mel
      ![Picture11](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/014f400e-766a-4ad7-b88a-c1a74817f65e)
 
    - Halaman pertama, akan menampilkan beberapa pilihan yang akan di install dan konfigurasi. Di sini penulis memilih “Graphical Install”
-     ![Picture12](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/9b6b9117-abac-4c1e-bb54-41a4f5ceb188)
+
+      ![Picture12](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/9b6b9117-abac-4c1e-bb54-41a4f5ceb188)
 
    - Selanjutnya, pengguna akan disuruh memilih bahasa, lokasi, dan jenis keyboard yang digunakan. Di sini penulis menggunakan Bahasa Indonesia, lokasi Indonesia, dan jenis keyboard Inggris Amerika
      
