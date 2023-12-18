@@ -43,6 +43,90 @@ Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk mel
      ![Picture10](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1c648c2d-1eb1-48f0-9967-4a411d2748ec)
 
    - `Pembuatan virtual mesin di virtual box berhasil dibuat
+2. Installasi dan Konfigurasi Kali Linux 
+   - Klik “Mulai” untuk mulai menjalankan kali linux
+     
+     ![Picture11](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/97bad2a9-b5a1-4808-9b87-30103f796555)
+
+   - Halaman pertama, akan menampilkan beberapa pilihan yang akan di install dan konfigurasi. Di sini penulis memilih “Graphical Install”
+     ![Picture12](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3de389d7-02e7-4b48-841f-dd54e8e3a502)
+
+   - Selanjutnya, pengguna akan disuruh memilih bahasa, lokasi, dan jenis keyboard yang digunakan. Di sini penulis menggunakan Bahasa Indonesia, lokasi Indonesia, dan jenis keyboard Inggris Amerika
+     
+     ![Picture13](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/b5cefe94-2f7a-41e6-861a-96433377e85b)
+     
+     ![Picture14](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1186e4db-767c-43f7-848f-6dfa1225e83f)
+     
+     ![Picture15](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/5c78c919-9f4c-49bc-9168-5a0bd203094b)
+
+   - Selanjutnya, tunggu pemrosesan yang dilakukan oleh kali linux hingga selesai
+
+     ![Picture16](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/e0cad7e9-27fa-4912-8adf-ea374e546680)
+
+   - Pengguna akan dimintai untuk menuliskan nama host, nama domain, nama lengkap dari pengguna baru, dan juga nama untuk akun. Di sini penulis menyamakan semua nama dengan nama “laili”
+     
+     ![Picture17](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/2ae414df-d7aa-4e5c-be11-7368600aaf9e)
+
+     ![Picture18](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/0fdf1b84-98cd-4be0-9b67-93daefdad10e)
+
+     ![Picture19](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/4a29a5e3-0171-41c3-afac-4f5051168f23)
+
+     ![Picture20](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/bdfa8d7b-5aad-4c39-b917-71fad62095e1)
+
+   - Setelah menuliskan semua nama yang diminta, selanjutnya pengguna juga dimintai untuk membuat kata sandi untuk akun kali linux nya.
+     
+     ![Picture21](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/e9cea63b-4c11-48a7-8dd4-18f500763dea)
+     
+   - Di pengaturan waktu, pengguna harus memilih pengaturan waktu yang sesuai dengan tempat tinggal pengguna. Di sini penulis memilih pengaturan waktu “WIB”
+     
+     ![Picture22](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/16aae342-f838-4503-82c8-e0d59b1ec283)
+
+   - Untuk partisi hard disk, pilih “Terpadu – gunakan seluruh harddisk”
+     
+     ![Picture23](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3a63c7f6-4bad-4178-bf3c-4b9dc566b12d)
+
+   - Pilih harddisk yang akan di partisi dan lanjut pilih pola partisi, di sini penulis memilih “Semua berkas di satu partisi (disarankan untuk pemula)
+     
+     ![Picture24](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/85720fc0-9fca-40e9-b461-e22e0adfb62c)
+
+     ![Picture25](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/b7af7cb8-167a-4c3a-8508-d1095a49809f)
+
+   - Setelah selesai partisi hard disk, selanjutnya pilih “Selesai mepartisi dan tulis perubahan-perubahannya ke hard disk” dak klik “Lanjutkan”
+     
+     ![Picture26](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1c655509-0f24-4795-b671-a00b9711253b)
+
+   - Pada bagian tulis perubahan yang terjadi pada hard disk, penulis memilih “ya”
+     
+     ![Picture27](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/750653d0-26b9-41d3-9373-ef3b55ad1f43)
+
+   - Semua pemrosesan hingga selesai
+     
+     ![Picture28](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1f3aaf1f-1c7a-4844-ad2e-700e43f0c5e5)
+
+   - Pilih perangkat lunak yang ingin di install, ini menyesuaikan kebutuhan pengguna. Penulis memilih 3 perangkat lunak seperti pada gambar
+     
+     ![Picture29](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/30d3208b-c7d2-46ac-98a3-f06ddc7092ed)
+
+   - Tunggu pemrosesan perangkat lunak hingga selesai
+     
+     ![Picture30](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/598707de-d260-42c2-9ba6-ebba37c7e337)
+
+   - Setelah pemrosesan selesai, pengguna akan diberikan pilihan untuk memasang boot loader GRUB atau tidak. Di sini penulis memilih untuk tidak memasang boot loader GRUB. Lalu klik “Lanjutkan
+
+     ![Picture31](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/ee11e4e8-7b76-4a2f-ac73-402769a025c1)
+     
+   - Untuk piranti pemasangan boot loader, penulis memilih yang sudah ada, yaitu “/dev/sda/ (ata-VBOX_HARDDISK_VB30cc22c5-bcd2de04)”
+     
+     ![Picture32](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/9a998c17-40ec-4f9e-abb7-abc847eda7f6)
+
+   - Tunggu penyelesaian installasi hingga selesai
+     
+     ![Picture33](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3618f680-4518-42d2-b37f-512cf9d3b83f)
+
+   - Setelah instalasi selesai, pilih “Lanjutkan” untuk melakukan boot ulang
+     
+     ![Picture34](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/4ac9c915-7140-4b46-b4fd-c3b3dd0fcbce)
+
 # Dampak Implementasi
 Penggunaan firewall pada Kali Linux di VirtualBox memberikan dampak signifikan terhadap keamanan dan kinerja sistem. Dampak positif termasuk peningkatan keamanan jaringan dengan memblokir penyusupan, malware, dan akses tidak sah, serta mengurangi ketergantungan pada konfigurasi spesifik. Firewall juga memungkinkan pengaturan akses konten yang lebih baik.
 
