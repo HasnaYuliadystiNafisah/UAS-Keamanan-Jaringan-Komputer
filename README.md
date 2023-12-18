@@ -10,6 +10,7 @@ Melalui implementasi ini, diharapkan tercipta panduan praktis bagi pengguna Kali
 Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk melindungi terhadap serangan seperti pemindaian port, malware, dan virus, tetapi juga untuk menguji dan memastikan efektivitas kebijakan keamanan secara menyeluruh. 
 1. Membuat Virtual Mesin Kali Linux di VirtualBox
    - Klik “Baru” untuk membuat mesin virtual baru
+     
      ![Picture3](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/a5b0b9b9-e660-4c99-b710-eea4f12d023b)
      
    - Beri nama virtual mesin sesuai keinginan. Untuk kali linux sendiri menggunakan tipe “Linux” dengan versi “Linux 2.6/3.x/4.x(64-bit). Lalu klik “Lanjut”
