@@ -10,7 +10,8 @@ Melalui implementasi ini, diharapkan tercipta panduan praktis bagi pengguna Kali
 Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk melindungi terhadap serangan seperti pemindaian port, malware, dan virus, tetapi juga untuk menguji dan memastikan efektivitas kebijakan keamanan secara menyeluruh. 
 1. Membuat Virtual Mesin Kali Linux di VirtualBox
    - Klik “Baru” untuk membuat mesin virtual baru
-     
+     ![Screenshot (408)](https://github.com/HasnaYuliadystiNafisah/UAS-Keamanan-Jaringan-Komputer/assets/136795333/f73baee3-8024-47a1-8e28-914b59aabd02)
+
 # Dampak Implementasi
 Penggunaan firewall pada Kali Linux di VirtualBox memberikan dampak signifikan terhadap keamanan dan kinerja sistem. Dampak positif termasuk peningkatan keamanan jaringan dengan memblokir penyusupan, malware, dan akses tidak sah, serta mengurangi ketergantungan pada konfigurasi spesifik. Firewall juga memungkinkan pengaturan akses konten yang lebih baik.
 
