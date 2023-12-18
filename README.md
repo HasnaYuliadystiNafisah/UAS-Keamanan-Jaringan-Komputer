@@ -127,6 +127,31 @@ Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk mel
      
      ![Picture34](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/4ac9c915-7140-4b46-b4fd-c3b3dd0fcbce)
 
+3. Implementasi Firewall Dengan Kali Linux di VirtualBox
+   - Setelah installasi selesai, pengguna akan di arahkan ke menu login dari kali linux. Dimana sebelum masuk, pengguna dimintai untuk memasukkan username dan password yang telah di buat
+
+     ![Picture35](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1420a25c-b319-45b7-a48a-1576b28fe2ee)
+
+   - Jika username dan password berhasil maka pengguna akan langsung diarahkan ke menu utama.
+     
+     ![Picture36](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/8463e256-5c05-4cdb-9157-1a3312651f20)
+
+   - Setelah dari menu utama, pengguna masuk ke terminal dan melakukan root dengan menuliskan perintah “sudo su”
+
+     ![Picture37](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3e8ae944-fec3-4e00-bed2-26a4756e7e0d)
+
+   - Setelah berada di dalam root, install iptables dengan mengetikkan “sudo apt-get install iptables”
+     
+     ![Picture38](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/6ff74daf-5027-4bdf-9c3f-e9c43afa76f4)
+
+   - Selanjutnya, penulis akan melakukan pengecekan apakah sudah ada yang terblokir atau belum dengan menuliskan perintah “iptables -L”. Di awal belum ada yang terblokir. Untuk melakukan implementasi firewall, di sini penulis ingin mencoba untuk memblokir website dari detik.com. Dimana IP dari detik.com sendiri yaitu 203.190.242.211 maka untuk memblokirnya, dituliskan perintah “iptables -A INPUT -s 203.190.242.211 -j DROP” setelah itu enter. Penulis melakukan pengecekan lagi dengan menuliskan perintah “iptables -L” dan terlihat bahwa IP dari detik.com sudah masuk ke dalam list. Penulis mencoba melakukan ping ke IP detik.com tetapi tidak ada reply yang berarti tidak terhubung
+     
+     ![Picture39](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3cbc3a4b-1830-474f-8353-c9d6638c002b)
+     
+   - Penulis mencoba untuk membuka website detik.com di firefox dan menghasilkan time out. Hal ini berarti penulis sudah berhasil memblokir IP detik.com
+
+     ![Picture40](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/d093fea7-6f3b-4fed-90a5-d7ec86650d6c)
+
 # Dampak Implementasi
 Penggunaan firewall pada Kali Linux di VirtualBox memberikan dampak signifikan terhadap keamanan dan kinerja sistem. Dampak positif termasuk peningkatan keamanan jaringan dengan memblokir penyusupan, malware, dan akses tidak sah, serta mengurangi ketergantungan pada konfigurasi spesifik. Firewall juga memungkinkan pengaturan akses konten yang lebih baik.
 
