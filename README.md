@@ -14,24 +14,33 @@ Penerapan firewall pada Kali Linux di VirtualBox tidak hanya bertujuan untuk mel
      ![Picture3](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/a5b0b9b9-e660-4c99-b710-eea4f12d023b)
      
    - Beri nama virtual mesin sesuai keinginan. Untuk kali linux sendiri menggunakan tipe “Linux” dengan versi “Linux 2.6/3.x/4.x(64-bit). Lalu klik “Lanjut”
+
      ![Picture1](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/6a03f7e3-5ef7-4fb1-9d0c-d7e81baeeb72)
    - Untuk ukuran memori sesuaikan dengan laptop, di sini penulis menggunakan ukuran memori 4096MB atau setara dengan 4GB. Lalu klik “Lanjut”
-     ![Picture2](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/57410bf5-9463-4a2f-9bc2-d8d1b8aaed2e)
-     
-   - Pilih “Buat hard disk virtual sekarang”, lalu klik “Buat”
-     ![Picture4](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/990b2bc6-72d3-47dd-b602-d9689c2b1291)
-     
-   - Selanjutnya untuk tipe hard disk pilih “VDI (Virtual Disk Image)” dan klik “Lanjut”
-     ![Picture5](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/a4ee5647-e664-4e71-833b-fcdb005e8f47)
 
+     ![Picture2](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/57410bf5-9463-4a2f-9bc2-d8d1b8aaed2e)
+   - Pilih “Buat hard disk virtual sekarang”, lalu klik “Buat”
+
+     ![Picture4](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/990b2bc6-72d3-47dd-b602-d9689c2b1291)
+   - Selanjutnya untuk tipe hard disk pilih “VDI (Virtual Disk Image)” dan klik “Lanjut”
+     
+     ![Picture5](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/a4ee5647-e664-4e71-833b-fcdb005e8f47)
    - Penyimpanan pada hard disk fisik gunakan yang “Dialokasikan secara dinamik”. Lalu klik “Lanjut”
      ![Picture6](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/3ab64eb9-3a55-4146-92e0-08ecb56ad236)
 
    - Lokasi dan ukuran berkas juga disesuaikan dengan keinginan, di sini penulis menggunakan 32GB. Selanjutnya klik “Buat”
+     ![Picture7](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/36676d0d-1349-47d8-856a-9bd066aa3cb5)
+
    - Virtual mesin kali linux berhasil dibuat
+     
+     ![Picture8](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/e55e906a-add0-449a-983b-73bfd04dade9)
+
    - Sebelum lanjut mengkonfigurasi kali linux, setting bagian penyimpanan dan jaringan terlebih dahulu. Untuk di bagian penyimpanan, tambahkan disk optik kali linux yang telah di unduh dari https://www.kali.org/get-kali/#kali-platforms.
+     ![Picture9](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/9db8979f-e72e-44dd-a2cf-9561186d4e7b)
 
      Sedangkan di bagian jaringan, ganti jaringan yang secara default “NAT” menjadi “Adaptor Ter-bridge”. Lalu klik “Ok” untuk menyimpan perubahan.
+     
+     ![Picture10](https://github.com/HasnaYuliadystiNafisah/TF/assets/136795333/1c648c2d-1eb1-48f0-9967-4a411d2748ec)
 
    - `Pembuatan virtual mesin di virtual box berhasil dibuat
 # Dampak Implementasi
